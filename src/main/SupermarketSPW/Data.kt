@@ -1,5 +1,5 @@
 import java.text.SimpleDateFormat
-import java.util.Date
+import java.util.*
 
 class Data(private var dia: Int, private var mes: Int, private var ano: Int) {
     init {

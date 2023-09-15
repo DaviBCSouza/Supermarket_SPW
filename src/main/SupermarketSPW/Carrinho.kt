@@ -19,6 +19,10 @@ class Carrinho {
         }
     }
 
+    fun limparCarrinho() {
+        itens.clear()
+    }
+
     fun getItens(): List<ItemProduto> {
         return itens.toList()
     }

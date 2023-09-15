@@ -1,4 +1,10 @@
-class Produto(private val codigo: Int, private var nome: String, private val preco: Double, val marca: Marca, val genero: Genero) {
+class Produto(
+    private val codigo: Int,
+    private var nome: String,
+    private val preco: Double,
+    val marca: Marca,
+    val genero: Genero
+) {
     override fun toString(): String {
         return "$nome (${marca.getNome()})"
     }
